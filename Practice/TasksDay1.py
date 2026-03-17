@@ -7,12 +7,14 @@ driver = Chrome(options=o)
 # Task 1
 '''driver.get('https://www.amazon.com')
 driver.maximize_window()
-print(driver.title)'''
+print(driver.title)
+driver.close()'''
 
 # Task 2
 '''driver.get('https://www.amazon.com')
 driver.maximize_window()
-print(driver.current_url)'''
+print(driver.current_url)
+driver.close()'''
 
 # Task 3
 '''driver.get("https://www.wikipedia.com")
