@@ -44,7 +44,8 @@ option.select_by_visible_text("Music")
 #To deselect the element
 # option.deselect_by_index(3)
 # option.deselect_by_visible_text("Badminton")
-option.deselect_all()'''
+option.deselect_all()
+driver.close()'''
 
 driver.get("https://www.amazon.com/")
 driver.maximize_window()
@@ -58,6 +59,7 @@ sleep(2)
 print(len(list))
 list[2].click()
 # driver.find_element(By.ID,"sac-suggestion-row-2").click()
+driver.close()
 
 
 
