@@ -1,6 +1,5 @@
 from operator import index
 from time import sleep
-from tokenize import tabsize
 
 from selenium.webdriver import Chrome,ChromeOptions
 from selenium.webdriver.common.by import By
