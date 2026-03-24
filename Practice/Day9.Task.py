@@ -1,4 +1,4 @@
-from operator import index
+
 from time import sleep
 
 from selenium.webdriver import Chrome,ChromeOptions
